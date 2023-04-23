@@ -1,7 +1,7 @@
 
 // Cria e organiza objetos
 
-function createBook(title, author, pages, year){
+function createBook(title, author, pages, year){    
     const book ={
         bookTitle : title,
         bookAuthor: author,
