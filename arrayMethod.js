@@ -3,7 +3,7 @@
 
 
 
-
+// Array primitiva
 const frutas = ['Maça', 'Pera', 'Uva', 'Banana']
 console.log(frutas.indexOf('Pêssego'))
 
@@ -12,6 +12,7 @@ console.log(frutas.indexOf('Pêssego'))
 // Resposta -1 pq não existe na array
 
 
+// Array com referências(objetos)
 const movies = [
     {id: 1, movieName:'Tarzan'},
     {id: 2, movieName:'Futurama'},
