@@ -25,3 +25,6 @@ console.log(movies.find(function(movie){
 }))
 
 // undefined pq ñ existe na array
+
+// Array function (function com return incluso )  + fácil de usar
+console.log(movies.find(movie => movie.movieName === 'Django Livre'))
