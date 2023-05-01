@@ -28,3 +28,29 @@ console.log(movies.find(function(movie){
 
 // Array function (function com return incluso )  + fácil de usar
 console.log(movies.find(movie => movie.movieName === 'Django Livre'))
+
+/*
+Esvaziar Array:
+xxx = []
+xxx.length = 0
+xxx.splice(o, xxx.length)
+
+Concatenar array:
+xxx.concat 
+
+Adicionar alguma coisa na array:
+xxx.join
+
+Organizar em ordem:
+xxx.sort()
+
+Inverter ordem:
+xxx.reverse
+
+xxx.every verifica todos os elementos e checa condição (precisa de uma função)
+
+xxx.filter filtra e retorna
+
+
+
+*/ 
