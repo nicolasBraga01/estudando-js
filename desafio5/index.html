@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Acerte se puder</title>
+</head>
+<!-- Meu foco era o js , html e css fiz do jeito mais simples -->
+<body onload="init()">
+    <section class="container">
+        <h1>Acerte o número entre 1 - 100</h1>
+        <h3 class="alerta">Tente vencer contra a máquina</h3>
+        <div class="campo">
+            <span>Digite aqui:</span>
+            <input type="number" id="inputBox" onchange="inputBox()">
+        </div>
+        <div class="dom">
+            <p>Número de tentativas:  <span id="tenta">0</span></p>
+            <p>Números escolhidos: <span id="array">0</span></p> 
+        </div>
+        <div class="areaButton">
+            <button id="novoJogo" onClick="window.location.reload()">NewGame</button>
+        </div>
+    </section>
+</body>
+
+</html>
