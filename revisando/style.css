@@ -44,12 +44,12 @@ body{
     margin: 20px;
     width: 350px;
     padding: .4em;
-    height: 350px;
+    height: 380px;
     border-radius: 2em;
     background-color: rgb(229, 226, 226);
 }
 .resultado p{
     margin-top: 3em;
     font-size: 1.3rem;
-    color: rgb(161, 5, 62);
+    color: rgb(10, 10, 10);
 }
