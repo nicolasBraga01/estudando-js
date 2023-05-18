@@ -13,7 +13,7 @@ function principal(){
     const senha = form.querySelector('#senha');
 
     // console.log(nome.value, senha.value);
-    
+
     // empurro para a array
     pessoas.push({
       nome : nome.value,
@@ -21,8 +21,8 @@ function principal(){
     })
 
     // console.log(pessoas)
-    resultado = document.getElementById('output').innerHTML = `Seu usuário é: ${nome.value} 
-    e sua senha: ${senha.value}`
+    resultado = document.getElementById('output').innerHTML = `Seu usuário é:<br>${nome.value} 
+    <br>e sua senha: <br> ${senha.value}`
   }
   // quando clicarem no botão de submit ele vai executar a função recebe dados
   form.addEventListener('submit', recebeDados);

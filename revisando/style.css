@@ -51,5 +51,6 @@ body{
 .resultado p{
     margin-top: 3em;
     font-size: 1.3rem;
+    padding: 10px;
     color: rgb(10, 10, 10);
 }
