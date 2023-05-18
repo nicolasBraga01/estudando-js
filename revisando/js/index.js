@@ -11,7 +11,9 @@ function principal(){
 
     const nome = form.querySelector('#name');
     const senha = form.querySelector('#senha');
-    console.log(nome.value, senha.value);
+
+    // console.log(nome.value, senha.value);
+    
     // empurro para a array
     pessoas.push({
       nome : nome.value,
