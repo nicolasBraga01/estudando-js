@@ -72,3 +72,8 @@ form input:focus{
     text-align: center;
    
 }
+
+.p-resultado{
+    background-color: #18fa50;
+    padding: 10px;
+}

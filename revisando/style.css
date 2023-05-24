@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #ccc;
+    background-color: #373737;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body{
 .forms{
     height: 500px;
     width: 400px;
-    background-color: aliceblue;
+    background-color: rgb(26, 148, 255);
     border-radius: 20px;
     padding: 2.4em;
 }
@@ -46,7 +46,7 @@ body{
     padding: .4em;
     height: 380px;
     border-radius: 2em;
-    background-color: rgb(229, 226, 226);
+    background-color: rgb(26, 229, 94);
 }
 .resultado p{
     margin-top: 3em;

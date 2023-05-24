@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora IMC</title>
 </head>
 <body>
@@ -29,14 +30,14 @@
                 <p>Obesidade grau 3</p>
             </div>
         </div>
-        <form method="post">
+        <form action="/" id="form" method="post">
             <label for="peso">Peso</label>
             <input type="text" name="peso" autofocus>
             <label for="altura">Altura</label>
             <input type="text">
             <input type="submit" value="calcular">
         </form>
-        <p id="resultado"><span id="exibirResultado"></span></p>
+       <div id="resultado"></div>
     </section>
 </body>
 </html>
