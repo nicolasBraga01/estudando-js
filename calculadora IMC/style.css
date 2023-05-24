@@ -67,13 +67,12 @@ form input:focus{
 #resultado{
     margin-top: 10px;
     width: 100%;
-    background-color: var(--resultado--conta);
+    /* background-color: var(--resultado--conta); */
     font-size: 1.3em;
     text-align: center;
    
 }
-
+/* 
 .p-resultado{
-    background-color: #18fa50;
     padding: 10px;
-}
+} */
