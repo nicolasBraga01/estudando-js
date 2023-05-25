@@ -18,15 +18,15 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 99vh;
   flex-wrap: wrap;
-  margin: 5px;
+  margin: 2px;
 }
 
 .container{
     width: 450px;
-    margin-top: 30px;
-    height: 550px;
+    margin-top: 10px;
+    height: 600px;
     border-radius: 1.3em;
     padding: 30px;
     background-color: var(--secudary-color);
@@ -65,14 +65,19 @@ form input:focus{
     outline: 1px solid var(--btn-color);
 }
 #resultado{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     /* background-color: var(--resultado--conta); */
     font-size: 1.3em;
-    text-align: center;
    
 }
-/* 
-.p-resultado{
-    padding: 10px;
-} */
+
+.p-certo{
+    background-color: #0fe384;
+    font-size: 0.8em;
+}
+
+.p-errado{
+    background-color: #e30f0f;
+    font-size: 0.8em;
+}
