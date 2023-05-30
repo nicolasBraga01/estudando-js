@@ -1,6 +1,6 @@
 // switchCase= verifica e executa as intruções
 
-let frutaPredileta = 'maça';
+let frutaPredileta = 'banana';
 
 switch (frutaPredileta) {
   case 'pera':
