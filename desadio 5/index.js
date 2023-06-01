@@ -77,8 +77,8 @@ function criarData(data) {
   const nomeDia = getdiaSemana(diaSemana);
   const nomeMes = getnomeMes(numeroMes);
   return (
-    `${nomeDia}, ${data.getDate()} de ${data.getMonth()}` +
-    ` do ${data.getFullYear()} ${data.getHours()}:${data.getMinutes()} `
+    `${nomeDia}, ${data.getDate()} do ${data.getMonth()}` +
+    ` de ${data.getFullYear()} ${data.getHours()}:${data.getMinutes()} `
   );
 }
 
