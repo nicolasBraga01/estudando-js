@@ -12,3 +12,4 @@ function price(){
 }
 
 console.log(price(10,40,30,50,40,10))
+// output 180
