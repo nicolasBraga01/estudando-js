@@ -1,0 +1,18 @@
+
+body{
+    background-color: rgb(17, 134, 244);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 50%;
+    height: auto;
+    background-color: #ccc;
+    margin: 150px auto;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.container h1{
+    font-size: 1.3em;
+}
