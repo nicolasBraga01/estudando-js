@@ -11,11 +11,15 @@
 // No modo paisagem, as dimensões da imagem são
 // geralmente mais largas do que altas.
 
-function ePaisagem(largura, altura){
-    if(largura > altura){
-        return true;
-    }
-    return false;
-}
+// minha solução
+// function ePaisagem(largura, altura){
+//     if(largura > altura){
+//         return true;
+//     }
+//     return false;
+// }
 
-console.log(ePaisagem(22,9))
+// console.log(ePaisagem(22,9))
+
+const ePaisagem = (largura, altura) => largura > altura;
+console.log(ePaisagem(1080, 1920))
