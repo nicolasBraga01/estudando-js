@@ -2,6 +2,7 @@
 // try (tente executar , usado para testar códigos'perigosos')
 // catch (se ñ funcionar faça isso)
 // ñ se lança erros para o usuário 
+// finnaly ñ é obrigatório
 
 function somar(x,y){
     if(typeof x !== 'number' || typeof y !== 'number'){
@@ -20,4 +21,6 @@ try{
 }catch(error){
     // console.log(error)
     console.log('alerta ')
+}finally{
+    console.log('eu sempre sou executado, ação final')
 }
