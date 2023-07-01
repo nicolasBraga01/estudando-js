@@ -6,7 +6,7 @@ for (let valor of nome) {
   console.log(valor);
 }
 
-// chama uma funnçao para cada elemento da matriz , essa funnção pode por exemplo retorna o valor , indice , array pertencente
+// chama uma funnçao para cada elemento da matriz , essa função pode por exemplo retorna o valor , indice , array pertencente
 nome.forEach(function (valor, indice) {
   console.log(valor, indice);
 });
